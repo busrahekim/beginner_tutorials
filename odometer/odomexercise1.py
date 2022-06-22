@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 #Make a python node executable
-#chmod u+x ~/catkin_ws/src/beginner_tutorials1/src/odomexercise1.py
+#chmod u+x ~/catkin_ws/src/beginner_tutorials/src/odomexercise1.py
 
 import rospy
 from geometry_msgs.msg import Twist
@@ -40,20 +40,3 @@ odom_sub = rospy.Subscriber('/odom', Odometry, callback)
 movetask()
 
 rospy.spin()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
