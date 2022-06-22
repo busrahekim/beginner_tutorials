@@ -1,5 +1,5 @@
 #Make the node an executable node
-#chmod u+x ~/catkin_ws/src/beginner_tutorials1/src/rotate.py
+#chmod u+x ~/catkin_ws/src/beginner_tutorials/src/rotate.py
 
 import rospy
 import sys
