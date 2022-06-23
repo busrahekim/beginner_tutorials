@@ -3,7 +3,7 @@
 
 
 #Make the node an executable node
-#chmod u+x ~/catkin_ws/src/beginner_tutorials1/src/scanenvironment.py
+#chmod u+x ~/catkin_ws/src/beginner_tutorials/src/scanenvironment.py
 
 import rospy
 import sys
