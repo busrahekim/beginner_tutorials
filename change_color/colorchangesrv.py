@@ -2,7 +2,7 @@
 
 
 #Make the node an executable node
-#chmod u+x ~/catkin_ws/src/beginner_tutorials1/src/colorchangesrv.py
+#chmod u+x ~/catkin_ws/src/beginner_tutorials/src/colorchangesrv.py
 import rospy 
 from std_srvs.srv import Empty
 from turtlesim.srv import*
