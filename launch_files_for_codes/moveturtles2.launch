@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="turtlesim" name="turtle1" type="turtlesim_node"/>
+	<node pkg="rosservice" type="rosservice" name="turtle2" args="call /spawn 5.5 4 0.0 turtle2" />
+	<node pkg="rosservice" type="rosservice" name="turtle3" args="call /spawn 5.5 3 0.0 turtle3" />	
+	<node pkg="beginner_tutorials" name="move1" type="movedistance.py" args="1" />
+	<node pkg="beginner_tutorials" name="move2" type="movedistance.py" args="2" />
+	<node pkg="beginner_tutorials" name="move3" type="movedistance.py" args="3" />
+	
+</launch>
